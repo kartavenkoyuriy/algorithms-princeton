@@ -3,8 +3,9 @@ package week1.unionfind;
 import java.util.Arrays;
 
 //1st QU improvement
-//weighted union - less tree to bigger tree
+//weighted union - smaller tree to bigger tree
 //this will improve performance to logN for 'union'(if including cost of finding the roots), and logN for 'connected'
+//smaller tree (in terms of the number of nodes)
 public class QuickUnionWeighted extends QuickUnionCommon {
 
     protected int[] size;
